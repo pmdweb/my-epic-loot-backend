@@ -1,10 +1,10 @@
 {
   "name": "my-epic-loot-backend",
   "build": {
-    "dockerfile": "backend/Dockerfile"
+    "dockerfile": "Dockerfile"
   },
   "workspaceFolder": "/app",
-  "postCreateCommand": "pip install -r backend/requirements-dev.txt",
+  "postCreateCommand": "pip install -r requirements-dev.txt",
   "customizations": {
     "vscode": {
       "extensions": [

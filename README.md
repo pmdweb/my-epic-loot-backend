@@ -5,14 +5,14 @@ API service for the project. See `Makefile` for common tasks.
 ## Quickstart (Dev)
 
 ```bash
-pip install -r backend/requirements-dev.txt
-python backend/manage.py migrate
-python backend/manage.py runserver
+pip install -r requirements-dev.txt
+python manage.py migrate
+python manage.py runserver
 ```
 
 ## Docker
 
 ```bash
-docker build -t mel-backend -f backend/Dockerfile .
+docker build -t mel-backend -f Dockerfile .
 docker run --rm -p 8000:8000 mel-backend
 ```
