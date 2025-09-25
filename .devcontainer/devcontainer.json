@@ -1,0 +1,22 @@
+{
+  "name": "my-epic-loot-backend",
+  "build": {
+    "dockerfile": "backend/Dockerfile"
+  },
+  "workspaceFolder": "/app",
+  "postCreateCommand": "pip install -r backend/requirements-dev.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.analysis.typeCheckingMode": "basic",
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+-r requirements.txt
+
+# Lint & Format
+black==24.3.0
+isort==5.12.0
+flake8==6.1.0
+flake8-bugbear==23.7.10
+flake8-django==1.4.0
+
+# Tests
+pytest==8.4.0
+pytest-django==4.5.2
+pytest-cov==4.1.0
+
+# Type checking
+mypy==1.10.0
+django-stubs==4.2.7
+
+# Dev tools
+pre-commit==3.7.0

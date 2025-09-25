@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+dist/
+build/
+.coverage
+htmlcov/
+
+# Django
+staticfiles/
+media/
+
+# Tools
+.pytest_cache/
+.mypy_cache/
